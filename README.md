@@ -12,7 +12,7 @@ The campaign opens at Quebec in 1759, then jumps back to the events that built t
 | --- | --- | --- |
 | Run through the ashes | First-person stealth | Escape Jamestown; the legacy of Bacon’s Rebellion |
 | A place for everyone | Town builder | House newcomers in Penn’s religiously tolerant colony |
-| Break the king’s seal | Stealth courier | Carry the Bill of Rights through the overthrow of Andros; Hobbes and Locke |
+| Break the king’s seal | Stealth courier | Carry news of the Bill of Rights after Andros’s overthrow; Hobbes and Locke |
 | Run the blockade | Naval combat | Collect molasses, evade patrols, and experience weak trade enforcement |
 | Hold until the money comes | Tactical defense | Start underfunded after Albany; deploy Pitt’s reinforcements |
 | Take the heights | First-person battle | Fight through three positions on the road to Quebec |

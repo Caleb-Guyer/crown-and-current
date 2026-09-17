@@ -23,7 +23,7 @@ The Office of the Historian’s Milestones series carries a notice that it is re
 
 ## Editorial choices
 
-- Playable characters, combat encounters, dialogue, maps, and resources are fictional scenarios. Musket reload times are shortened for play. The 1689 courier mission’s Hobbes/Locke comparison is an explanatory summary; Locke’s Two Treatises appeared in late 1689 with a 1690 title-page date.
+- Playable characters, combat encounters, dialogue, maps, and resources are fictional scenarios. Musket reload times are shortened for play. The courier mission takes place after Andros’s April 1689 overthrow and the English Bill of Rights of December 1689; its loyalist patrols are fictional. The Hobbes/Locke comparison is an explanatory summary; Locke’s Two Treatises appeared in late 1689 with a 1690 title-page date.
 - Generated scenery is atmospheric and reused across places and dates. It should not be treated as a historically precise view of Philadelphia, Charles Town, or a particular fort.
 - The supplied excerpt gives the Royal African Company monopoly’s end as 1689; many standard accounts instead use 1698. The game avoids testing that disputed date and does not repeat it as a fact.
 - The supplied excerpt’s description of the 1663 Staple Act and some 1763 overseas territorial transfers is compressed. The game uses broad trade restrictions and the major mainland settlement, avoiding those imprecise details.
