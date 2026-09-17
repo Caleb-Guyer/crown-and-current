@@ -26,6 +26,12 @@ The campaign includes **67 prerecorded dialogue clips** (about 5 minutes), voice
 
 Use **Settings** (or **Audio & settings** in the pause menu) for independent voice/effects volume, voice mute, subtitles, and a voice preview. Briefings can be replayed. Clips load as needed, and missing/blocked audio falls back to captions. The voice assets are ordinary MP3 files hosted with the game: players need no speech service, account, download of an AI model, or microphone. See [VOICE-CREDITS.md](VOICE-CREDITS.md) for production details.
 
+## Music
+
+An **eight-track original instrumental score** changes with every mission: tense stealth pulses, a warm Pennsylvania theme, sailing music, field drums and strings for combat, and a darker imperial-debt cue. Tracks fade into one another and loop without MP3 padding. Music softens under dialogue and pauses with the game or when the tab is hidden.
+
+Music begins after your first click or keypress. **Settings → Music volume** controls its level separately from voices and effects; **Music: off** mutes only the soundtrack. The HUD's **Sound** button mutes everything. The game loads music as needed, directly from this repository. [MUSIC-CREDITS.md](MUSIC-CREDITS.md) includes the track list and original synthesis source.
+
 ## Controls
 
 - **First person:** WASD movement, mouse or arrow keys to aim, click/F to fire or throw a distraction, Shift sprint, C crouch, Space jump, P/Escape pause. Click the world to capture your mouse.
@@ -61,7 +67,7 @@ npm test
 npm run check
 ```
 
-Tests cover quiz composition, priority coverage, collision and line of sight, shooting/reloading, capture objectives, winning strategies for the building, defense, and debt systems, and dialogue queuing, pause/resume, cancellation, muting, fallback captions, and voice-asset coverage.
+Tests cover quiz composition, priority coverage, collision and line of sight, shooting/reloading, capture objectives, winning strategies for the building, defense, and debt systems, dialogue playback, and music transitions, pause/resume, muting, dialogue ducking, stale downloads, failure recovery, and packaged audio assets.
 
 ## GitHub Pages
 
@@ -76,6 +82,7 @@ Use **Settings → Pages → Deploy from a branch → main → /(root)**. Assets
 - `content.js` and `engine.js`: reference material, practice questions, and balanced quiz selection.
 - `action.css`: interface and touch controls.
 - `dialogue.mjs`, `voice-lines.mjs`, and `voice-*.mp3`: voice playback, cast/script metadata, and prerecorded performances.
+- `music.mjs`, `score.mjs`, and `music-*.mp3`: soundtrack playback, track metadata, and original instrumental loops. `compose-score.py` is the optional offline composition/synthesis source.
 
 The flat layout makes static uploads straightforward. Three.js and original game code are MIT licensed; licenses are included. Original narrative, questions, and generated scenery are offered under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), to the extent rights apply, with credit to Crown & Current contributors. OpenStax material remains under its own CC BY 4.0 license. Exact image prompts are in [ART-PROMPTS.json](ART-PROMPTS.json).
 
