@@ -20,6 +20,12 @@ The campaign opens at Quebec in 1759, then jumps back to the events that built t
 
 Encounters are fictional game scenarios. Reloads, maps, damage, budgets, and troop counts are designed for play, not exact historical simulation. See [SOURCES.md](SOURCES.md).
 
+## Character voices
+
+The campaign includes **67 prerecorded dialogue clips** (about 5 minutes), voiced briefings and outcomes, and eight stock synthetic voices cast across the characters. Warnings and reactions respond to health, patrol detection, cargo, construction, garrison supplies, taxation, and borrowing. Dialogue plays one line at a time; combat sounds soften during speech. Pause freezes the current voice and its captions, while changing missions cancels old dialogue.
+
+Use **Settings** (or **Audio & settings** in the pause menu) for independent voice/effects volume, voice mute, subtitles, and a voice preview. Briefings can be replayed. Clips load as needed, and missing/blocked audio falls back to captions. The voice assets are ordinary MP3 files hosted with the game: players need no speech service, account, download of an AI model, or microphone. See [VOICE-CREDITS.md](VOICE-CREDITS.md) for production details.
+
 ## Controls
 
 - **First person:** WASD movement, mouse or arrow keys to aim, click/F to fire or throw a distraction, Shift sprint, C crouch, Space jump, P/Escape pause. Click the world to capture your mouse.
@@ -55,7 +61,7 @@ npm test
 npm run check
 ```
 
-Tests cover quiz composition, priority coverage, collision and line of sight, shooting/reloading, capture objectives, and winning strategies for the building, defense, and debt systems.
+Tests cover quiz composition, priority coverage, collision and line of sight, shooting/reloading, capture objectives, winning strategies for the building, defense, and debt systems, and dialogue queuing, pause/resume, cancellation, muting, fallback captions, and voice-asset coverage.
 
 ## GitHub Pages
 
@@ -69,6 +75,7 @@ Use **Settings → Pages → Deploy from a branch → main → /(root)**. Assets
 - `boards.mjs`: naval, building, defense, and crisis systems.
 - `content.js` and `engine.js`: reference material, practice questions, and balanced quiz selection.
 - `action.css`: interface and touch controls.
+- `dialogue.mjs`, `voice-lines.mjs`, and `voice-*.mp3`: voice playback, cast/script metadata, and prerecorded performances.
 
 The flat layout makes static uploads straightforward. Three.js and original game code are MIT licensed; licenses are included. Original narrative, questions, and generated scenery are offered under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), to the extent rights apply, with credit to Crown & Current contributors. OpenStax material remains under its own CC BY 4.0 license. Exact image prompts are in [ART-PROMPTS.json](ART-PROMPTS.json).
 

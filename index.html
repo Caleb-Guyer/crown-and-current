@@ -7,14 +7,15 @@
   <meta name="description" content="A free historical action campaign: stealth, first-person battles, naval combat, town building, and a war that changes an empire.">
   <title>Crown & Current — Rule Britannia</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="action.css">
+  <link rel="stylesheet" href="action.css?v=2.1">
   <script src="content.js" defer></script>
   <script src="engine.js" defer></script>
-  <script type="module" src="action.mjs"></script>
+  <script type="module" src="action.mjs?v=2.1"></script>
 </head>
 <body>
+  <audio id="voice-track" preload="none" playsinline hidden></audio>
   <div id="backdrop" aria-hidden="true"></div>
-  <canvas id="view" tabindex="0" aria-label="Game world. Use WASD to move, mouse or arrow keys to aim, and Space for your primary action."></canvas>
+  <canvas id="view" tabindex="0" aria-label="Game world. Use WASD to move, mouse or arrow keys to aim, click or F to fire, and Space to jump."></canvas>
   <canvas id="board" tabindex="0" aria-label="Game board. Use WASD to move in naval mode. In strategy modes, choose an action then click a highlighted position."></canvas>
   <div id="play-hud" hidden>
     <div class="mission-hud"><span id="hud-era"></span><h1 id="hud-objective"></h1><div id="hud-progress"></div></div>

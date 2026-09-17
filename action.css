@@ -8,3 +8,9 @@
 #play-hud:has(#hotbar:not(:empty)) #subtitle{bottom:156px}
 @media(max-width:700px){#play-hud:has(#hotbar:not(:empty)) #subtitle{bottom:160px}}
 #hotbar button{color:var(--paper)}#hotbar button.active{color:var(--gold)}
+
+/* Voice controls live in settings; only the current speaker appears in play. */
+.settings-panel{max-width:720px}.audio-toggles{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0}.audio-toggles button{padding:10px 17px;min-height:44px;font-size:14px}
+.audio-setting{display:grid;grid-template-columns:120px minmax(100px,1fr) 48px;gap:15px;align-items:center;margin:22px 0}.audio-setting label{font-size:14px;color:var(--muted)}.audio-setting input{width:100%;accent-color:var(--gold);cursor:pointer}.audio-setting output{text-align:right;font-size:13px;color:var(--gold)}
+#subtitle.voice-active{border-left:2px solid var(--gold)}
+@media(max-width:480px){.audio-setting{grid-template-columns:96px minmax(70px,1fr) 38px;gap:9px}.audio-toggles{gap:7px}.audio-toggles button{padding:9px 11px}}

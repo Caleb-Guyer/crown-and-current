@@ -37,6 +37,10 @@ The Office of the Historian’s Milestones series carries a notice that it is re
 
 Three original menu environments were generated with the built-in OpenAI ImageGen tool, then converted from PNG to WebP. Exact prompts are included in [ART-PROMPTS.json](ART-PROMPTS.json). Files: `harbor.webp`, `printshop.webp`, and `frontier.webp`. Gameplay worlds are original procedural Three.js and Canvas geometry. Three.js 0.169.0 is bundled from its official npm distribution under the included MIT license.
 
+## Voice production
+
+The game uses prerecorded synthetic dialogue generated locally with [Kokoro-82M](https://huggingface.co/hexgrad/Kokoro-82M) (Apache 2.0) through [kokoro-onnx](https://github.com/thewh1teagle/kokoro-onnx) (MIT). Eight stock voices portray fictional characters; they are not historical recordings or imitations of named performers. Original scripts, voice assignments, speaking rates, clip durations, and filenames are in `voice-lines.mjs`. See [VOICE-CREDITS.md](VOICE-CREDITS.md). No model or speech-generation library runs in the player's browser.
+
 ## Privacy and persistence
 
 Story progress and best quiz score are stored only in `localStorage` in the player’s browser. There are no accounts, telemetry, remote saves, or AI calls. Google Fonts is the only optional external display dependency. All gameplay and images are local static assets.
